@@ -21,13 +21,13 @@ pod 'MyPod'
   s.homepage         = 'https://github.com/itJinCheng/MyPod.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'itJinCheng' => '425576856@qq.com' }
-  s.source           = { :git => 'https://github.com/itJinCheng/JCPravicyCocoaPod.git', :tag => s.version }
+  s.source_files = 'MyPod/*.{h,m}'
+  s.source           = { :git => 'https://github.com/itJinCheng/MyPod.git', :tag => s.version }
 
   s.ios.deployment_target = '7.0'
 
 
   s.frameworks = 'UIKit', 'Foundation'
 
-  s.source_files = 'MyPod/*.{h,m}'
 
 end
